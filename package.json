@@ -1,5 +1,5 @@
 {
-  "name": "zwbutils",
+  "name": "zwblist",
   "version": "1.0.0",
   "description": "common toolkit",
   "main": "index.js",
@@ -8,14 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zwb521fang/zwbutils.git"
-  },
-  "dependencies": {
-    "bip39": "^3.1.0",
-    "ethereumjs-wallet": "^1.0.2",
-    "ethers": "^5.5.0",
-    "fs": "^0.0.1-security",
-    "web3": "^4.3.0"
+    "url": "git+https://github.com/zwb521fang/zwblist.git"
   },
   "keywords": [
     "[\"utils\"",
@@ -26,7 +19,15 @@
   "author": "zwb21fang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zwb521fang/zwbutils/issues"
+    "url": "https://github.com/zwb521fang/zwblist/issues"
   },
-  "homepage": "https://github.com/zwb521fang/zwbutils#readme"
+  "homepage": "https://github.com/zwb521fang/zwblist#readme",
+  "dependencies": {
+    "zwbutils": "^1.0.2",
+    "bip39": "^3.1.0",
+    "ethereumjs-wallet": "^1.0.2",
+    "ethers": "^5.5.0",
+    "fs": "^0.0.1-security",
+    "web3": "^4.3.0"
+  }
 }

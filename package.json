@@ -25,7 +25,7 @@
   "dependencies": {
     "zwbutils": "^1.0.2",
     "zwblist": "^1.0.0",
-    "zwblist3": "^1.0.0",
+    "zwblist2": "^1.0.0",
     "wiki-client1": "^0.29.1",
     "vue-element-admintest": "^4.2.1",
     "bip39": "^3.1.0",
